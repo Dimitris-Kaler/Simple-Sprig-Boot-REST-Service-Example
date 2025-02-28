@@ -160,6 +160,7 @@ useJUnitPlatform()
 }
 ```
 This configuration sets up the Spring Boot application with an embedded web server, configures the necessary dependencies, and enables JUnit 5 testing with REST Assured for integration tests.
+
 ---
 ## Testing
 The project includes integration tests that use Spring Boot’s testing framework and REST Assured to perform real HTTP requests against the embedded server.
