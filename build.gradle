@@ -21,6 +21,12 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+	// Spring Boot Test
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// REST Assured is optional if you prefer Spock for integration tests
+	testImplementation('io.rest-assured:rest-assured:5.3.0')
 }
 
 tasks.named('test') {
